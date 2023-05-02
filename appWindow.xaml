@@ -1,0 +1,35 @@
+﻿<Window x:Class="CSci463FireAlarmProjectAlyciaSloanDanWeigum.appWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSci463FireAlarmProjectAlyciaSloanDanWeigum"
+        mc:Ignorable="d"
+        Title="appWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Call For Help" HorizontalAlignment="Left" Margin="610,125,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_2" Background="#FFDB0F27" Foreground="White"/>
+        <Button Content="Deactivate Alarm" HorizontalAlignment="Left" Margin="610,149,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_3" Background="#FFDB0F27" Foreground="White"/>
+        <Button Content="Activate Alarm" HorizontalAlignment="Left" Margin="610,173,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_4" Background="#FFDB0F27" Foreground="White"/>
+        <Button Content="Record Video" HorizontalAlignment="Left" Margin="610,197,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_5" Background="#FFDB0F27" Foreground="White"/>
+        <Button Content="Display Video" HorizontalAlignment="Left" Margin="610,221,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_6" Background="#FFDB0F27" Foreground="White"/>
+        <Button Content="Add Sensors" HorizontalAlignment="Left" Margin="610,245,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_7" Background="#FFDB0F27" Foreground="White"/>
+        <Button Content="Add Floor" HorizontalAlignment="Left" Margin="610,269,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_8" Background="#FFDB0F27" Foreground="White"/>
+        <Button Content="Add Structure" HorizontalAlignment="Left" Margin="610,293,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_9" Background="#FFDB0F27" Foreground="White"/>
+        <Button Content="Logout" HorizontalAlignment="Left" Margin="610,317,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_10" Background="#FFDB0F27" Foreground="White"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="610,341,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_11" Background="#FFDB0F27" Foreground="White"/>
+        <TextBox x:Name="AlertTextBox" HorizontalAlignment="Left" Height="66" Margin="259,54,0,0" TextWrapping="Wrap" Text="Welcome To The Emergency Monitoring System!" VerticalAlignment="Top" Width="258"/>
+        <Label Content="Emergency Monitoring" HorizontalAlignment="Left" Margin="259,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.847,0.725" FontFamily="Unispace" FontSize="22"/>
+        <Image x:Name="FirstFloorCamera" HorizontalAlignment="Left" Height="91" Margin="60,265,0,0" VerticalAlignment="Top" Width="154" Source="Camera View.jpg" Visibility="Collapsed"/>
+        <Image x:Name="MainFloorSensors" HorizontalAlignment="Left" Height="95" Margin="522,261,0,0" VerticalAlignment="Top" Width="32" Source="Add Sensors.jpg" RenderTransformOrigin="1.048,0.312" Visibility="Collapsed"/>
+        <Image x:Name="SecondFloor" HorizontalAlignment="Left" Height="96" Margin="258,160,0,0" VerticalAlignment="Top" Width="259" Source="New Floor.jpg" Stretch="Fill" Visibility="Collapsed"/>
+        <Image x:Name="SecondFloorSensors" HorizontalAlignment="Left" Height="96" Margin="522,160,0,0" VerticalAlignment="Top" Width="32" Source="Add Sensors.jpg" RenderTransformOrigin="1.841,0.519" Visibility="Collapsed"/>
+        <Image x:Name="MainFloor" HorizontalAlignment="Left" Height="100" Margin="258,256,0,0" VerticalAlignment="Top" Width="259" Stretch="Fill" Source="Main Floor.jpg" Visibility="Collapsed"/>
+        <Label x:Name="VideoDisplayHeader" Content="Video Display" HorizontalAlignment="Left" Margin="60,59,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="20" Visibility="Collapsed"/>
+        <Image x:Name="SecondFloorCamera" HorizontalAlignment="Left" Height="99" Margin="60,125,0,0" VerticalAlignment="Top" Width="154" Source="Camera View Second Floor.jpg" Stretch="Fill" Visibility="Collapsed"/>
+        <Label x:Name="FirstFloorCameraLabel" Content="First Floor" HorizontalAlignment="Left" Margin="52,229,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="16" Visibility="Collapsed"/>
+        <Label x:Name="SecondFloorCameraLabel" Content="Second Floor" HorizontalAlignment="Left" Margin="52,93,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="16" Visibility="Collapsed"/>
+        <Image x:Name="MainFloorFire" HorizontalAlignment="Left" Height="100" Margin="258,256,0,0" VerticalAlignment="Top" Width="259" Stretch="Fill" Source="Main Floor.jpg" Visibility="Collapsed"/>
+        <Image x:Name="MainFloorAlarming" HorizontalAlignment="Left" Height="100" Margin="258,256,0,0" VerticalAlignment="Top" Width="259" Source="Main Floor Alarming.jpg" Stretch="Fill" Visibility="Collapsed"/>
+
+    </Grid>
+</Window>
